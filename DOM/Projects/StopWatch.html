@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="css/Normalize.css" />
+    <link rel="stylesheet" href="css/StopWatch.css" />
+  </head>
+  <body>
+    
+    <div class="stopwatch">
+      <div class="stopwatch__screen"><p class="time">00:00:01</p></div>
+      <button class="stopwatch__button stopwatch--start">
+        <svg class="icon icon--black">
+          <use xlink:href ="images/sprite.svg#play"></use>
+        </svg>
+      </button>
+      <button class="stopwatch__button stopwatch--pause">
+        <svg class="icon icon--black">
+          <use class="use" xlink:href ="images/sprite.svg#pause"></use>
+        </svg>
+      </button>
+    </div>
+    <script src="js/StopWatch.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans';
+    background-color: black;
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+    color: white;
+}
+.box{
+    background: url(Image/scroll.jpg)  ;
+    background-position: -45px;
+    border-radius: 10px;
+    height: 106px;
+    width: 630px;   
+    border: 2px solid white;
+    display: inline-block;
+    padding: 15px;
+    padding-bottom: 0;
+}
+.legend{
+    text-align: end;
+    color: rgb(184, 76, 5);
+    font-style: italic;
+    font-size: .8rem;
+}
+.submitBtn{
+    margin: 20px;
+    padding: 10px 30px;
+    border: 2px solid white;
+    background-color: #e5b389;
+    border-radius: 10px;
+    transition: font-size 0.2s, background-color 0.2s, color 0.2s;
+}
+.submitBtn:active{
+    background-color: black;
+    color: white;
+    font-size: 0.6rem;
+}

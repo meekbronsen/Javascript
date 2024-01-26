@@ -1,0 +1,1 @@
+// The Document Object is a built-in {Object} with many properties and methods that we can use to manipulate the content, the structure and style of a project

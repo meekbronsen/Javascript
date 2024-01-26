@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    background: url(../Images/mclaren.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    margin: 0;
+}
+.stopwatch{
+    padding: 1rem 0;
+    width: 450px;
+    height: 200px;
+    margin: 8rem auto;
+    background-color: rgb(218, 218, 218);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items:center ;
+    align-items:center ;
+}
+.stopwatch__screen{
+    border-radius: 10px;
+    width: 70%;
+    height: 4rem;
+    background-color: rgb(187, 186, 186);
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    text-shadow: 2px 2px  #242424;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.4rem;
+    color: rgb(226, 3, 3);
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.icon--black{
+    fill: black;
+}
+.stopwatch__button{
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+    transform: translateX(1px);
+    cursor: pointer;
+    transition: box-shadow .06s ;
+}
+.stopwatch__button:active{
+    box-shadow: 1px 1px black;
+}
+.stopwatch--start{
+    background-color: lightgreen;
+}
+.stopwatch--pause{
+    background-color: lightblue;
+}
+.stopwatch--refresh{
+    background-color: pink;
+}
+.icon{
+    transition: fill .1s;
+}
+.icon:hover{
+    fill:white;
+}
